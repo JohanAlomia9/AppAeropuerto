@@ -14,6 +14,8 @@ public class AppAeropuerto {
     /**
      * @param args the command line arguments
      */
-    
+    public void main(String [] args ){
+        System.out.print("Hola mundo");
+    }
     
 }
