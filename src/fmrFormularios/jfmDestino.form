@@ -165,7 +165,7 @@
     <Component class="javax.swing.JLabel" name="jLabel44">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\SanSalvador.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/SanSalvador.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -177,7 +177,7 @@
     <Component class="javax.swing.JLabel" name="jLabel45">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\ElSalvador.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/ElSalvador.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -202,7 +202,7 @@
     <Component class="javax.swing.JLabel" name="jLabel42">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -214,7 +214,7 @@
     <Component class="javax.swing.JLabel" name="jLabel40">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Bruselas.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Bruselas.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -226,7 +226,7 @@
     <Component class="javax.swing.JLabel" name="jLabel41">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\B&#xe9;lgica.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/B&#xe9;lgica.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -268,7 +268,7 @@
     <Component class="javax.swing.JLabel" name="jLabel37">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -310,7 +310,7 @@
     <Component class="javax.swing.JLabel" name="jLabel34">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Sanjuan.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Sanjuan.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -322,7 +322,7 @@
     <Component class="javax.swing.JLabel" name="jLabel35">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\PuertoRico.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/PuertoRico.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -334,7 +334,7 @@
     <Component class="javax.swing.JLabel" name="jLabel32">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -359,7 +359,7 @@
     <Component class="javax.swing.JLabel" name="jLabel29">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\seattle.jpeg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/seattle.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -371,7 +371,7 @@
     <Component class="javax.swing.JLabel" name="jLabel30">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\eeuu.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/eeuu.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -400,7 +400,7 @@
     <Component class="javax.swing.JLabel" name="jLabel27">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -412,7 +412,7 @@
     <Component class="javax.swing.JLabel" name="jLabel24">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Paris.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Paris.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -454,7 +454,7 @@
     <Component class="javax.swing.JLabel" name="jLabel25">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\francia.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/francia.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -466,7 +466,7 @@
     <Component class="javax.swing.JLabel" name="jLabel22">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -491,7 +491,7 @@
     <Component class="javax.swing.JLabel" name="jLabel19">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Lima.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Lima.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -503,7 +503,7 @@
     <Component class="javax.swing.JLabel" name="jLabel20">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\peru.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/peru.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -532,7 +532,7 @@
     <Component class="javax.swing.JLabel" name="jLabel17">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -557,7 +557,7 @@
     <Component class="javax.swing.JLabel" name="jLabel14">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Madrid.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Madrid.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -569,7 +569,7 @@
     <Component class="javax.swing.JLabel" name="jLabel15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Espa&#xf1;a.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Espa&#xf1;a.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -598,7 +598,7 @@
     <Component class="javax.swing.JLabel" name="jLabel12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -623,7 +623,7 @@
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Mede.jpeg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Mede.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -635,7 +635,7 @@
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\colombia.jpeg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/colombia.jpeg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -664,7 +664,7 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -689,7 +689,7 @@
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\eeuu.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/eeuu.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -701,7 +701,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\NY.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/NY.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel3"/>
       </Properties>
@@ -730,7 +730,7 @@
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Borroso.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Borroso.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -743,7 +743,7 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Administrator\Desktop\PROYECTO POO - 2 SEMESTRE\Imagenes\Destino.jpg"/>
+          <Image iconType="3" name="/Imagenes/ImgDestino/Destino.jpg"/>
         </Property>
       </Properties>
       <Constraints>
