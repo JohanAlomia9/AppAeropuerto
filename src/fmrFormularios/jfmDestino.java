@@ -27,18 +27,278 @@ public class jfmDestino extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jButton10 = new javax.swing.JButton();
+        jLabel47 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton10.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jButton10.setText("SALIR");
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 630, 170, 40));
+
+        jLabel47.setFont(new java.awt.Font("Sitka Display", 3, 36)); // NOI18N
+        jLabel47.setForeground(new java.awt.Color(255, 0, 51));
+        jLabel47.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel47.setText("VUELOS DISPONIBLES");
+        getContentPane().add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 390, 50));
+
+        jButton1.setText("ORDENAR");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, -1, -1));
+
+        jButton2.setText("ORDENAR");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 230, -1, -1));
+
+        jButton3.setText("ORDENAR");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 230, -1, -1));
+
+        jButton4.setText("ORDENAR");
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 400, -1, -1));
+
+        jButton5.setText("ORDENAR");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 400, -1, -1));
+
+        jButton6.setText("ORDENAR");
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 400, -1, -1));
+
+        jButton7.setText("ORDENAR");
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 570, -1, -1));
+
+        jButton8.setText("ORDENAR");
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 570, -1, -1));
+
+        jButton9.setText("ORDENAR");
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 570, -1, -1));
+
+        jLabel43.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel43.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel43.setText("SAN SALVADOR - EL SALVADOR");
+        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 470, 200, -1));
+
+        jLabel44.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\SanSalvador.jpg")); // NOI18N
+        getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 500, -1, 60));
+
+        jLabel45.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\ElSalvador.jpg")); // NOI18N
+        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 500, 100, 60));
+
+        jLabel46.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel46.setText("$489.00");
+        getContentPane().add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 570, 120, -1));
+
+        jLabel42.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 450, 280, 160));
+
+        jLabel40.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Bruselas.jpg")); // NOI18N
+        getContentPane().add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
+
+        jLabel41.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Bélgica.jpg")); // NOI18N
+        getContentPane().add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 100, 60));
+
+        jLabel39.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel39.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel39.setText("BRUSELAS - BÉLGICA");
+        getContentPane().add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 470, 200, -1));
+
+        jLabel38.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel38.setText("$1225.00");
+        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 570, 130, -1));
+
+        jLabel37.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 450, 280, 160));
+
+        jLabel36.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel36.setText("$565.56");
+        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 570, 100, -1));
+
+        jLabel33.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel33.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel33.setText("SAN JUAN - PUERTO RICO");
+        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, 200, -1));
+
+        jLabel34.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Sanjuan.jpg")); // NOI18N
+        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 500, -1, -1));
+
+        jLabel35.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\PuertoRico.jpg")); // NOI18N
+        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 500, -1, -1));
+
+        jLabel32.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 280, 160));
+
+        jLabel31.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel31.setText("$1025.00");
+        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 400, 130, -1));
+
+        jLabel29.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\seattle.jpeg")); // NOI18N
+        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, -1, -1));
+
+        jLabel30.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\eeuu.jpg")); // NOI18N
+        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 330, -1, -1));
+
+        jLabel23.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel23.setText("SEATTLE - ESTADOS UNIDOS");
+        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 300, 200, -1));
+
+        jLabel27.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 280, 280, 160));
+
+        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Paris.jpg")); // NOI18N
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 330, -1, 60));
+
+        jLabel26.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel26.setText("$1684.00");
+        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, 130, -1));
+
+        jLabel28.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel28.setText("PARIS - FRANCIA");
+        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 300, 200, -1));
+
+        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\francia.jpg")); // NOI18N
+        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, -1, 60));
+
+        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 280, 280, 160));
+
+        jLabel21.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel21.setText("$499.19");
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 100, -1));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Lima.jpg")); // NOI18N
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+
+        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\peru.jpg")); // NOI18N
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 330, -1, -1));
+
+        jLabel18.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel18.setText("LIMA - PERÚ");
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 200, -1));
+
+        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 280, 160));
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel16.setText("$1541.00");
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 230, 120, -1));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Madrid.jpg")); // NOI18N
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, -1, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\España.jpg")); // NOI18N
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 160, 90, 50));
+
+        jLabel13.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setText("MADRID - ESPAÑA");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 130, 200, -1));
+
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 110, 280, 160));
+
+        jLabel11.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel11.setText("$241.50");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, 110, -1));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Mede.jpeg")); // NOI18N
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 160, -1, -1));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\colombia.jpeg")); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 160, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setText("MEDELLIN - COLOMBIA");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 130, 200, -1));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, 280, 160));
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jLabel5.setText("$689.15");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 120, -1));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\eeuu.jpg")); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\NY.jpg")); // NOI18N
+        jLabel3.setText("jLabel3");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 100, 70));
+
+        jLabel2.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 51, 255));
+        jLabel2.setText("NUEVA YORK - ESTADOS UNIDOS");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Borroso.jpg")); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 280, 160));
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Desktop\\PROYECTO POO - 2 SEMESTRE\\Imagenes\\Destino.jpg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-360, -220, 1670, 1000));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +339,62 @@ public class jfmDestino extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }
