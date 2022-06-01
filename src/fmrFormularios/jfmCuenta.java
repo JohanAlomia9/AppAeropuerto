@@ -16,6 +16,8 @@ public class jfmCuenta extends javax.swing.JFrame {
      */
     public jfmCuenta() {
         initComponents();
+        setLocationRelativeTo(null);
+
     }
 
     /**
@@ -33,16 +35,12 @@ public class jfmCuenta extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jTextPane1 = new javax.swing.JTextPane();
-        jScrollPane1 = new javax.swing.JScrollPane();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextField1 = new javax.swing.JTextField();
-        jTextPane2 = new javax.swing.JTextPane();
         jScrollPane5 = new javax.swing.JScrollPane();
         jLabel5 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jScrollPane3 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
@@ -63,16 +61,11 @@ public class jfmCuenta extends javax.swing.JFrame {
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/home.png"))); // NOI18N
         jButton1.setText("REGRESAR AL MENU");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 390, -1, 20));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(299, 390, 170, 30));
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("MI CUENTA");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 150, 50));
-
-        jTextPane1.setBackground(new java.awt.Color(204, 255, 255));
-        getContentPane().add(jTextPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, -1, -1));
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 120, 20));
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -81,9 +74,6 @@ public class jfmCuenta extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, 120, -1));
-
-        jTextPane2.setBackground(new java.awt.Color(204, 255, 255));
-        getContentPane().add(jTextPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
         getContentPane().add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 120, 20));
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 50, 30));
 
@@ -93,7 +83,6 @@ public class jfmCuenta extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fmrFormularios/d4c951ec85f59367276a061c7b5bee2e--iphone-backgrounds-phone-wallpapers.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 230, 400));
-        getContentPane().add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 230, 120, -1));
 
         jPanel1.setBackground(new java.awt.Color(153, 255, 255));
 
@@ -209,14 +198,10 @@ public class jfmCuenta extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextPane jTextPane1;
-    private javax.swing.JTextPane jTextPane2;
     private javax.swing.JTree jTree1;
     // End of variables declaration//GEN-END:variables
 }

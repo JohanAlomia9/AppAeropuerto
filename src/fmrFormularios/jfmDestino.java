@@ -16,6 +16,7 @@ public class jfmDestino extends javax.swing.JFrame {
      */
     public jfmDestino() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**

@@ -16,6 +16,7 @@ public class jfmMisViajes extends javax.swing.JFrame {
      */
     public jfmMisViajes() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -58,7 +59,7 @@ public class jfmMisViajes extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(155, 155, 155)
                 .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 158, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(160, 160, 160)
                 .addComponent(jLabel5)
@@ -70,9 +71,8 @@ public class jfmMisViajes extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel1)
-                        .addComponent(jLabel5)))
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel1))
                 .addGap(76, 76, 76))
         );
 
@@ -131,7 +131,7 @@ public class jfmMisViajes extends javax.swing.JFrame {
                             .addComponent(jLabel3))
                         .addGap(27, 27, 27)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                     .addContainerGap(104, Short.MAX_VALUE)
