@@ -5,8 +5,6 @@
  */
 package fmrFormularios;
 
-import rsscalelabel.RSScaleLabel;
-
 /**
  *
  * @author AlomiaTobar
@@ -19,15 +17,6 @@ public class jfmRegistro extends javax.swing.JFrame {
     public jfmRegistro() {
         initComponents();
         setLocationRelativeTo(null);
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblImagenAvion, "src/Imagenes/avion.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblP, "src/Imagenes/mundo.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblC, "src/Imagenes/ced.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblN, "src/Imagenes/fnaci.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblG, "src/Imagenes/genero.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblU, "src/Imagenes/user.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblA, "src/Imagenes/user.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblCl, "src/Icons/CONTRASEÑA.png");
-        rsscalelabel.RSScaleLabel.setScaleLabel(lblE, "src/Imagenes/email.png");
     }
 
     /**
