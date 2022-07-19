@@ -90,8 +90,13 @@ public class frmDestino extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton10.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
-        jButton10.setText("SALIR");
-        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 630, 170, 40));
+        jButton10.setText("REGRESAR");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 630, 170, 40));
 
         jLabel47.setFont(new java.awt.Font("Sitka Display", 3, 36)); // NOI18N
         jLabel47.setForeground(new java.awt.Color(255, 0, 51));
@@ -303,6 +308,13 @@ public class frmDestino extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+        frmMenuPrincipal form = new frmMenuPrincipal();
+        form.setVisible(true);
+        this.hide();
+    }//GEN-LAST:event_jButton10ActionPerformed
 
     /**
      * @param args the command line arguments
