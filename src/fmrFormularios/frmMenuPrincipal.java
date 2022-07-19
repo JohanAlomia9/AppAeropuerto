@@ -32,6 +32,8 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
         fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -70,7 +72,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 300, 420, -1));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 420, -1));
 
         jButton4.setBackground(new java.awt.Color(204, 255, 204));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/comunicar.png"))); // NOI18N
@@ -80,10 +82,30 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, 420, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 490, 420, -1));
+
+        jButton5.setBackground(new java.awt.Color(255, 255, 204));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/anadir-al-carrito (1).png"))); // NOI18N
+        jButton5.setText("VER VUELOS COMPRADOS");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 300, 420, 70));
+
+        jButton6.setBackground(new java.awt.Color(255, 204, 204));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/cerrar-sesion.png"))); // NOI18N
+        jButton6.setText("CERRAR SESIÓN");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 600, -1, 30));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/fondo.jpg"))); // NOI18N
-        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, 530));
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, 650));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -115,6 +137,20 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
         form.setVisible(true);
         this.hide();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        frmVerBoletos form = new frmVerBoletos();
+        form.setVisible(true);
+        this.hide();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        frmModuloSeguridad form = new frmModuloSeguridad();
+        form.setVisible(true);
+        this.hide();
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -160,6 +196,8 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
