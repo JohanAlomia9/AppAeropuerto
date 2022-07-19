@@ -5,16 +5,19 @@
  */
 package fmrFormularios;
 
+import Clases.conexbase;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author sebas
  */
-public class fmrModuloSeguridad extends javax.swing.JFrame {
+public class frmModuloSeguridad extends javax.swing.JFrame {
 
     /**
      * Creates new form fmrModuloSeguridad
      */
-    public fmrModuloSeguridad() {
+    public frmModuloSeguridad() {
         initComponents();
     }
 
@@ -30,8 +33,8 @@ public class fmrModuloSeguridad extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
+        txtusu = new javax.swing.JTextField();
+        txtcontra = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         FONDO = new javax.swing.JLabel();
@@ -57,16 +60,21 @@ public class fmrModuloSeguridad extends javax.swing.JFrame {
         jLabel3.setText("CONTRASEÑA");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        txtusu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                txtusuActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 200, -1));
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 200, -1));
+        getContentPane().add(txtusu, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 200, -1));
+        getContentPane().add(txtcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 200, -1));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/iniciar-sesion.png"))); // NOI18N
         jButton1.setText("INGRESAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, -1, -1));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/registro-en-linea.png"))); // NOI18N
@@ -79,9 +87,24 @@ public class fmrModuloSeguridad extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void txtusuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_txtusuActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        conexbase nombrebase = new conexbase();
+        if(nombrebase.ValidarUsuario(txtusu.getText(), txtcontra.getText())==1)
+               {
+                   frmMenuPrincipal menuprincipal = new frmMenuPrincipal();
+                   menuprincipal.setVisible(true);
+                   this.hide();
+               }
+        if(nombrebase.ValidarUsuario(txtusu.getText(), txtcontra.getText())==0)
+        {
+            JOptionPane.showMessageDialog(this, "Usuario/Contraseña incorrecta");
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -100,20 +123,21 @@ public class fmrModuloSeguridad extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(fmrModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(fmrModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(fmrModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(fmrModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(frmModuloSeguridad.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new fmrModuloSeguridad().setVisible(true);
+                new frmModuloSeguridad().setVisible(true);
             }
         });
     }
@@ -125,7 +149,7 @@ public class fmrModuloSeguridad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField txtcontra;
+    private javax.swing.JTextField txtusu;
     // End of variables declaration//GEN-END:variables
 }
