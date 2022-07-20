@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package fmrFormularios;
+package Formularios;
 
 import Clases.conexbase;
 import javax.swing.JOptionPane;
