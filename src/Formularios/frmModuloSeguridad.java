@@ -19,6 +19,7 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
      */
     public frmModuloSeguridad() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -34,9 +35,9 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         txtusu = new javax.swing.JTextField();
-        txtcontra = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        txtcontra = new javax.swing.JPasswordField();
         FONDO = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -66,7 +67,6 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtusu, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 200, -1));
-        getContentPane().add(txtcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 200, -1));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/iniciar-sesion.png"))); // NOI18N
         jButton1.setText("INGRESAR");
@@ -85,6 +85,7 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 160, -1));
+        getContentPane().add(txtcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 200, -1));
 
         FONDO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/ModuloSeguridad.gif"))); // NOI18N
         getContentPane().add(FONDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 270));
@@ -161,7 +162,7 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField txtcontra;
+    private javax.swing.JPasswordField txtcontra;
     private javax.swing.JTextField txtusu;
     // End of variables declaration//GEN-END:variables
 }

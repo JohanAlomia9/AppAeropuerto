@@ -16,6 +16,7 @@ public class frmCompraBoletos extends javax.swing.JFrame {
      */
     public frmCompraBoletos() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

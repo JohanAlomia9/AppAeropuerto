@@ -16,6 +16,7 @@ public class frmContactos extends javax.swing.JFrame {
      */
     public frmContactos() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

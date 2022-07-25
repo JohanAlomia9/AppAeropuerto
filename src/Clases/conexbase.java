@@ -7,6 +7,7 @@ package Clases;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
@@ -61,4 +62,23 @@ public class conexbase {
      }
      return 0;
  }    
+    public void RegistroUsuario(String usu,String contra,String cedu,String correo,String nombre)
+ {
+     con=conectarBase();
+     String consulta="Insert into tbl_registro(reg_nombre,reg_cedula,reg_correo,reg_usu,reg_contra)values('"+nombre+"','"+usu+"','"+contra+"','"+correo+"','"+cedu+"')";
+     
+     try {
+         PreparedStatement ps;
+         ps = con.prepareCall(consulta);
+         
+         ps.executeUpdate();
+         
+         JOptionPane.showMessageDialog(null, "Usuario creado");
+         
+     }catch (Exception e){
+         JOptionPane.showMessageDialog(null, "No se pudo crear el usuario");
+     }
+     
+     
+ }
 }
