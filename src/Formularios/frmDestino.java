@@ -5,6 +5,9 @@
  */
 package Formularios;
 
+import static java.awt.image.ImageObserver.HEIGHT;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author AlomiaTobar
@@ -76,11 +79,9 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -104,11 +105,23 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel47.setText("VUELOS DISPONIBLES");
         getContentPane().add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 40, 390, 50));
 
-        jButton1.setText("ORDENAR");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, -1, -1));
+        jButton1.setBackground(new java.awt.Color(0, 0, 204));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/eeuu.jpg"))); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 120, 80));
 
-        jButton2.setText("ORDENAR");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 230, -1, -1));
+        jButton2.setBackground(new java.awt.Color(153, 153, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/colombia.jpeg"))); // NOI18N
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 150, 130, 80));
 
         jButton3.setText("ORDENAR");
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 230, -1, -1));
@@ -271,9 +284,6 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Mede.jpeg"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 160, -1, -1));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/colombia.jpeg"))); // NOI18N
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 160, -1, -1));
-
         jLabel8.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(153, 51, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -286,9 +296,6 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
         jLabel5.setText("$689.15");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 120, -1));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/eeuu.jpg"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 160, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/NY.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
@@ -315,6 +322,20 @@ public class frmDestino extends javax.swing.JFrame {
         form.setVisible(true);
         this.hide();
     }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this,"PAQUETE COMPLETO"+"\n"
+        +"INCLUYE: "+"\n"+"2 dias 2 noches"+"\n"+"hotel 5 estrellas"+"\n"+"viajes turisticos",
+        "NEW YORK - ESTADOS UNIDOS", HEIGHT);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this,"PAQUETE COMPLETO"+"\n"
+        +"INCLUYE: "+"\n"+"2 dias 2 noches"+"\n"+"hotel 5 estrellas"+"\n"+"viajes turisticos",
+        "MEDELLIN - COLOMBIA", HEIGHT);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -364,7 +385,6 @@ public class frmDestino extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -406,7 +426,6 @@ public class frmDestino extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
