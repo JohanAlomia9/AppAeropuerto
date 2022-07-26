@@ -83,6 +83,7 @@ public class frmRegistro extends javax.swing.JFrame {
         getContentPane().add(txtCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 170, 260, -1));
         getContentPane().add(txtCedu, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 100, 260, -1));
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/cerrar-sesion.png"))); // NOI18N
         jButton1.setText("REGRESAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,13 +92,14 @@ public class frmRegistro extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 500, 120, 40));
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/registro-en-linea.png"))); // NOI18N
         jButton2.setText("REGISTRARSE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, 120, 40));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 500, 150, 40));
 
         Fondo.setBackground(new java.awt.Color(255, 255, 255));
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesRegistro/FondoVIajes.jpg"))); // NOI18N

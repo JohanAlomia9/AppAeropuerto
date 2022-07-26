@@ -158,6 +158,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImagenesMenuPrincipal/cerrar-sesion.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="REGRESAR"/>
       </Properties>
       <Events>
@@ -171,6 +174,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/ImagenesModuloSeguridad/registro-en-linea.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="REGISTRARSE"/>
       </Properties>
       <Events>
@@ -178,7 +184,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="550" y="500" width="120" height="40"/>
+          <AbsoluteConstraints x="520" y="500" width="150" height="40"/>
         </Constraint>
       </Constraints>
     </Component>
