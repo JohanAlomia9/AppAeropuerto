@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package Formularios;
-
 /**
  *
  * @author sebas
@@ -30,7 +29,7 @@ public class frmCompraBoletos extends javax.swing.JFrame {
 
         jLabel2 = new javax.swing.JLabel();
         cbxDestino = new javax.swing.JComboBox<>();
-        jSpinner1 = new javax.swing.JSpinner();
+        spnNumero = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -52,8 +51,8 @@ public class frmCompraBoletos extends javax.swing.JFrame {
                 cbxDestinoActionPerformed(evt);
             }
         });
-        getContentPane().add(cbxDestino, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 70, 190, 30));
-        getContentPane().add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 70, 30));
+        getContentPane().add(cbxDestino, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 190, 30));
+        getContentPane().add(spnNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 70, 30));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -71,6 +70,11 @@ public class frmCompraBoletos extends javax.swing.JFrame {
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesCompraBoletos/login.png"))); // NOI18N
         jButton2.setText("INGRESAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, -1, -1));
 
         lblPrecio.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
@@ -139,6 +143,11 @@ public class frmCompraBoletos extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_cbxDestinoActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+       
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -181,7 +190,7 @@ public class frmCompraBoletos extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JSpinner jSpinner1;
     private javax.swing.JLabel lblPrecio;
+    private javax.swing.JSpinner spnNumero;
     // End of variables declaration//GEN-END:variables
 }
