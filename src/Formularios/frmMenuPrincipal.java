@@ -72,7 +72,7 @@ public class frmMenuPrincipal extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 460, 420, -1));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 450, 420, -1));
 
         jButton5.setBackground(new java.awt.Color(255, 255, 204));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesMenuPrincipal/anadir-al-carrito (1).png"))); // NOI18N

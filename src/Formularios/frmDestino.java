@@ -44,37 +44,30 @@ public class frmDestino extends javax.swing.JFrame {
         jButton9 = new javax.swing.JButton();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel37 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -123,26 +116,38 @@ public class frmDestino extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 150, 130, 80));
 
-        jButton3.setText("ORDENAR");
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 230, -1, -1));
+        jButton3.setBackground(new java.awt.Color(204, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/España.jpg"))); // NOI18N
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 150, 130, 80));
 
-        jButton4.setText("ORDENAR");
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 400, -1, -1));
+        jButton4.setBackground(new java.awt.Color(255, 0, 51));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/peru.jpg"))); // NOI18N
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 320, 120, 90));
 
-        jButton5.setText("ORDENAR");
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 400, -1, -1));
+        jButton5.setBackground(new java.awt.Color(255, 255, 255));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/francia.jpg"))); // NOI18N
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 320, 130, 80));
 
-        jButton6.setText("ORDENAR");
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 400, -1, -1));
+        jButton6.setBackground(new java.awt.Color(0, 0, 255));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/eeuu.jpg"))); // NOI18N
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 130, 80));
 
-        jButton7.setText("ORDENAR");
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 570, -1, -1));
+        jButton7.setBackground(new java.awt.Color(0, 0, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/ElSalvador.jpg"))); // NOI18N
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 490, 130, 80));
 
-        jButton8.setText("ORDENAR");
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 570, -1, -1));
+        jButton8.setBackground(new java.awt.Color(255, 255, 0));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/Bélgica.jpg"))); // NOI18N
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 490, 120, 80));
 
-        jButton9.setText("ORDENAR");
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 570, -1, -1));
+        jButton9.setBackground(new java.awt.Color(255, 0, 51));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesDestino/PuertoRico.jpg"))); // NOI18N
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 500, 120, 80));
 
         jLabel43.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel43.setForeground(new java.awt.Color(153, 51, 255));
@@ -153,9 +158,6 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/SanSalvador.jpg"))); // NOI18N
         getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 500, -1, 60));
 
-        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/ElSalvador.jpg"))); // NOI18N
-        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 500, 100, 60));
-
         jLabel46.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
         jLabel46.setText("$489.00");
         getContentPane().add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 570, 120, -1));
@@ -165,9 +167,6 @@ public class frmDestino extends javax.swing.JFrame {
 
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Bruselas.jpg"))); // NOI18N
         getContentPane().add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 500, -1, -1));
-
-        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Bélgica.jpg"))); // NOI18N
-        getContentPane().add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 100, 60));
 
         jLabel39.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel39.setForeground(new java.awt.Color(153, 51, 255));
@@ -195,9 +194,6 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Sanjuan.jpg"))); // NOI18N
         getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 500, -1, -1));
 
-        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/PuertoRico.jpg"))); // NOI18N
-        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 500, -1, -1));
-
         jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Borroso.jpg"))); // NOI18N
         getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 280, 160));
 
@@ -207,9 +203,6 @@ public class frmDestino extends javax.swing.JFrame {
 
         jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/seattle.jpeg"))); // NOI18N
         getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, -1, -1));
-
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/eeuu.jpg"))); // NOI18N
-        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 330, -1, -1));
 
         jLabel23.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(153, 51, 255));
@@ -233,9 +226,6 @@ public class frmDestino extends javax.swing.JFrame {
         jLabel28.setText("PARIS - FRANCIA");
         getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 300, 200, -1));
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/francia.jpg"))); // NOI18N
-        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 330, -1, 60));
-
         jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Borroso.jpg"))); // NOI18N
         getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 280, 280, 160));
 
@@ -245,9 +235,6 @@ public class frmDestino extends javax.swing.JFrame {
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Lima.jpg"))); // NOI18N
         getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
-
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/peru.jpg"))); // NOI18N
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 330, -1, -1));
 
         jLabel18.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(153, 51, 255));
@@ -264,9 +251,6 @@ public class frmDestino extends javax.swing.JFrame {
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/Madrid.jpg"))); // NOI18N
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, -1, -1));
-
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ImgDestino/España.jpg"))); // NOI18N
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 160, 90, 50));
 
         jLabel13.setFont(new java.awt.Font("Stencil", 2, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(153, 51, 255));
@@ -337,6 +321,10 @@ public class frmDestino extends javax.swing.JFrame {
         "MEDELLIN - COLOMBIA", HEIGHT);
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -389,40 +377,33 @@ public class frmDestino extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel5;
