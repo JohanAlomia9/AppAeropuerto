@@ -36,38 +36,45 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         txtusu = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
         jButton2 = new javax.swing.JButton();
         txtcontra = new javax.swing.JPasswordField();
+        jPanel1 = new javax.swing.JPanel();
         FONDO = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(255, 51, 255));
+        jLabel2.setFont(new java.awt.Font("Gabriola", 1, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 255));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/avion.png"))); // NOI18N
         jLabel2.setText("BIENVENIDO AL SISTEMA");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
 
-        jLabel1.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/usuario.png"))); // NOI18N
         jLabel1.setText("USUARIO");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, 110, 30));
 
-        jLabel3.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/contrasena.png"))); // NOI18N
         jLabel3.setText("CONTRASEÑA");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, -1, 30));
 
         txtusu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtusuActionPerformed(evt);
             }
         });
-        getContentPane().add(txtusu, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 200, -1));
+        getContentPane().add(txtusu, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 90, 200, -1));
 
+        jButton1.setBackground(new java.awt.Color(51, 255, 255));
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 153));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/iniciar-sesion.png"))); // NOI18N
         jButton1.setText("INGRESAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -75,8 +82,17 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, -1, -1));
 
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 140, 30));
+
+        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 140, 30));
+
+        jButton2.setBackground(new java.awt.Color(255, 255, 51));
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 153));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/registro-en-linea.png"))); // NOI18N
         jButton2.setText("REGISTRARSE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -84,8 +100,11 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 160, -1));
-        getContentPane().add(txtcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 200, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 160, -1));
+        getContentPane().add(txtcontra, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 140, 200, -1));
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 380, 40));
 
         FONDO.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesModuloSeguridad/ModuloSeguridad.gif"))); // NOI18N
         getContentPane().add(FONDO, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 470, 270));
@@ -162,6 +181,9 @@ public class frmModuloSeguridad extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JPasswordField txtcontra;
     private javax.swing.JTextField txtusu;
     // End of variables declaration//GEN-END:variables

@@ -19,7 +19,7 @@ public class conexbase {
     }
     Connection con;
     
-    String url="jdbc:sqlserver://DESKTOP-8L4KEKG:1433;databaseName=Aeropuerto2022;user=Andres;password=admin123";
+    String url="jdbc:sqlserver://192.168.200.4:1433;databaseName=Aeropuerto2022 [sa on db_accessadmin]";
             
     public Connection conectarBase()
     {

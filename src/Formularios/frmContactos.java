@@ -32,6 +32,7 @@ public class frmContactos extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -41,19 +42,29 @@ public class frmContactos extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton1.setBackground(new java.awt.Color(255, 102, 102));
+        jButton1.setFont(new java.awt.Font("Serif", 3, 16)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 102));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesCompraBoletos/regreso.png"))); // NOI18N
         jButton1.setText("REGRESAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 450, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, 150, -1));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+
+        jLabel1.setFont(new java.awt.Font("Impact", 2, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 204, 204));
         jLabel1.setText("NUESTROS CONTACTOS");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 300, -1));
+        jPanel1.add(jLabel1);
 
-        jButton2.setBackground(new java.awt.Color(102, 255, 102));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 350, 50));
+
+        jButton2.setBackground(new java.awt.Color(255, 255, 51));
+        jButton2.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesContactos/telefono-viejo.png"))); // NOI18N
         jButton2.setText("SERVICIO AL CLIENTE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -61,9 +72,10 @@ public class frmContactos extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 240, 60));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 310, 70));
 
-        jButton3.setBackground(new java.awt.Color(255, 153, 153));
+        jButton3.setBackground(new java.awt.Color(51, 102, 255));
+        jButton3.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesContactos/informacion.png"))); // NOI18N
         jButton3.setText("INFORMACIÓN DE VUELOS");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -71,9 +83,10 @@ public class frmContactos extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 240, 70));
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 310, 70));
 
-        jButton4.setBackground(new java.awt.Color(153, 153, 255));
+        jButton4.setBackground(new java.awt.Color(255, 51, 51));
+        jButton4.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesContactos/clavo.png"))); // NOI18N
         jButton4.setText("DIRECCIÓN");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -81,7 +94,7 @@ public class frmContactos extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 320, 240, 70));
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 310, 70));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesContactos/FONDO.jpg"))); // NOI18N
         getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 500));
@@ -157,5 +170,6 @@ public class frmContactos extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

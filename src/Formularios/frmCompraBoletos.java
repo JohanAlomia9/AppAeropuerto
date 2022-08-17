@@ -39,26 +39,30 @@ public class frmCompraBoletos extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("MV Boli", 1, 25)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(204, 0, 204));
         jLabel2.setText("SELECCIONE SU DESTINO");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 50, -1, 40));
 
         cbxDestino.setBackground(new java.awt.Color(204, 255, 204));
+        cbxDestino.setFont(new java.awt.Font("Serif", 2, 14)); // NOI18N
         cbxDestino.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "NEW YORK- ESTADOS UNIDOS", "MEDELLIN-COLOMBIA", "MADRID-ESPAÑA", "LIMA-PERU", "PARIS-FRANCIA", "SEATTLE-ESTADOS UNIDOS", "SAN JUAN-PUERTO RICO", "BRUSELAS-BELGICA", "SAN SALVADOR-EL SALVADOR" }));
         cbxDestino.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbxDestinoActionPerformed(evt);
             }
         });
-        getContentPane().add(cbxDestino, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 190, 30));
-        getContentPane().add(spnNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 70, 30));
+        getContentPane().add(cbxDestino, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, 230, 30));
+        getContentPane().add(spnNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 250, 70, 30));
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("MV Boli", 1, 25)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 0, 51));
         jLabel1.setText("CANTIDAD DE BOLETOS");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, -1, 40));
 
+        jButton1.setBackground(new java.awt.Color(255, 102, 102));
+        jButton1.setFont(new java.awt.Font("Serif", 2, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(0, 0, 153));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesCompraBoletos/regreso.png"))); // NOI18N
         jButton1.setText("REGRESAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -66,8 +70,11 @@ public class frmCompraBoletos extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 150, 40));
 
+        jButton2.setBackground(new java.awt.Color(102, 255, 204));
+        jButton2.setFont(new java.awt.Font("Serif", 2, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 153));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesCompraBoletos/login.png"))); // NOI18N
         jButton2.setText("INGRESAR");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -75,14 +82,14 @@ public class frmCompraBoletos extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 210, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 310, 150, 40));
 
         lblPrecio.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         lblPrecio.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(lblPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 70, 110, 30));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesCompraBoletos/fondo.gif"))); // NOI18N
-        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 380));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
